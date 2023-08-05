@@ -1,9 +1,9 @@
 import './text.css'
-import joker from '../../public/joker.png'
+import jupiter from '../../public/jupiter.png'
 
 import Image from 'next/image'
 
-const jokerStyle = {
+const jupiterStyle = {
     height: '20vmax',
     width: 'auto'
 }
@@ -26,15 +26,13 @@ export default function Text(){
                 </div>
                 <div className='flex-1 flex justify-end items-center'>
                     <Image
-                    src={joker}
+                    src={jupiter}
                     alt='joker'
-                    style={jokerStyle}
+                    style={jupiterStyle}
                     />   
                 </div>
             </div>
-            <div className='h-10vw w-screen bg-black'>
-
-            </div>
+            
         </div>
     )
 }
