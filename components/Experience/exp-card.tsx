@@ -15,13 +15,16 @@ export default function Card(
     }:Props
 ){
     return (
-        <div className="flex flex-col">
-            <h3>{position}</h3>
-            <div className="flex flex-row">
-                <h4>{company}</h4>
-                <h4>{period}</h4>
+        <div className="flex-1 m-5 flex flex-col border-2 border-white-500 rounded">
+            <div className="flex justify-center text-center">
+                <h3 className="p-2">{position}</h3>
             </div>
-            <p>
+            
+            <div className="flex flex-row justify-between">
+                <h4 className="p-2">{company}</h4>
+                <h4 className="p-2 text-end">{period}</h4>
+            </div>
+            <p className="p-5">
                 {description}
             </p>
         </div>
