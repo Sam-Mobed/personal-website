@@ -3,7 +3,7 @@ import Text from '@/components/Text'
 
 export default function Home() {
   return (
-    <main className='h-[200vh] bg-black overflow-hidden'>
+    <main className='h-[300vh] bg-black overflow-hidden'>
       <Hero />
       <Text />
     </main>
