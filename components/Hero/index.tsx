@@ -30,7 +30,7 @@ const marcusStyle = {
 export default function Hero(){
     return (
         <div>
-            <div className='w-screen h-[80vh] relative pt-10 flex justify-center items-center'>
+            <div className='w-screen h-[60vh] relative pt-[40vmin] flex justify-center items-center'>
                 <div className='absolute w-[30vmax] h-[30vmax] text-1'>
                     <Image 
                     src={c1_text}
