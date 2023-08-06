@@ -38,7 +38,7 @@ export default function Experience(){
     return (
         <div className="ml-[5vmax] mr-[5vmax] mt-[1vw]">
             <h2 className='text-white pt-5 pb-5'>My Experience</h2>
-            <p className='text-white'>A summary of my experience so far, which you can also see on my resume here:</p>
+            <p className='text-white pb-3'>A summary of my experience so far, which you can also see on my resume here:</p>
             <div className="flex flex-wrap justify-between text-white">
                 <Card 
                     position={jobs['ssc-HPCS']['position']}
