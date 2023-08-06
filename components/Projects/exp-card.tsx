@@ -1,4 +1,3 @@
-import './card.css'
 
 type Props = {
     position: string;
@@ -16,16 +15,16 @@ export default function Card(
     }:Props
 ){
     return (
-        <div className="flex-1 m-3 flex flex-col border-2 border-white-500 rounded">
-            <div className="flex justify-center text-center position-name">
-                <h3 className="p-2 underline">{position}</h3>
+        <div className="flex-1 m-5 flex flex-col border-2 border-white-500 rounded">
+            <div className="flex justify-center text-center">
+                <h3 className="p-2">{position}</h3>
             </div>
             
-            <div className="flex flex-row justify-between position-info border-b-2 border-white-500">
+            <div className="flex flex-row justify-between">
                 <h4 className="p-2">{company}</h4>
                 <h4 className="p-2 text-end">{period}</h4>
             </div>
-            <p className="p-5 position-description">
+            <p className="p-5">
                 {description}
             </p>
         </div>

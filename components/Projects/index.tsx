@@ -34,7 +34,7 @@ const gargoyleStyle = {
     height:'auto'
 }
 
-export default function Experience(){
+export default function Projects(){
     return (
         <div className="ml-[5vmax] mr-[5vmax] mt-[1vw]">
             <h2 className='text-white pt-5 pb-5'>My Experience</h2>

@@ -10,7 +10,7 @@ export default function About(){
     return (
         <div className="ml-[5vmax] mr-[5vmax] mt-[1vw]">
             <div className='flex lg:flex-row md:flex-row flex-col justify-between'>
-                <div className='flex lg:flex-row md:flex-row flex-col justify-between'>
+                <div className='flex lg:flex-row md:flex-row flex-col-reverse justify-between'>
                     <div className='flex-1 flex justify-start items-center'>
                         <Image
                         src={hermes}
