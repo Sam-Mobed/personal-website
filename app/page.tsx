@@ -7,7 +7,7 @@ import Skills from '@/components/Skills'
 
 export default function Home() {
   return (
-    <main className='h-[1600vh] bg-black overflow-hidden'>
+    <main className='h-[3000vh] bg-black overflow-hidden'>
       <Hero />
       <Text />
       <About />
