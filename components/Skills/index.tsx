@@ -88,6 +88,13 @@ export default function Skills(){
                         </div>
                     </div>
                     <div className='flex lg:flex-row md:flex-row flex-col justify-center items-center'>
+                        <div className='flex-1 flex justify-center items-center'>
+                            <Image
+                            src={framework}
+                            alt='framework'
+                            style={imgStyle}
+                            />
+                        </div>
                         <div className='flex-1 flex flex-col justify-center items-center'>
                             <h4 className='p-5'>Frameworks</h4>
                             <div className='flex flex-row flex-wrap justify-center items-center'>
@@ -108,13 +115,6 @@ export default function Skills(){
                                     <h5>React</h5>
                                 </div>
                             </div>
-                        </div>
-                        <div className='flex-1 flex justify-center items-center'>
-                            <Image
-                            src={framework}
-                            alt='framework'
-                            style={imgStyle}
-                            />
                         </div>
                     </div>
                     <div className='flex lg:flex-row md:flex-row flex-col justify-center items-center'>

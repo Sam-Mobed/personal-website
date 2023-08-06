@@ -4,16 +4,19 @@ import About from '@/components/About'
 import Experience from '@/components/Experience'
 import Projects from '@/components/Projects'
 import Skills from '@/components/Skills'
+import Contact from '@/components/Contact'
 
 export default function Home() {
   return (
-    <main className='h-[3000vh] bg-black overflow-hidden'>
+    <main className=' bg-black overflow-hidden'>
       <Hero />
       <Text />
       <About />
       <Experience />
       <Projects />
       <Skills />
+      <Contact />
+      
     </main>
   )
 }
