@@ -22,8 +22,8 @@ export default function Card(
             </div>
             
             <div className="flex flex-row justify-between position-info border-b-2 border-white-500">
-                <h4 className="p-2">{company}</h4>
-                <h4 className="p-2 text-end">{period}</h4>
+                <h5 className="p-2">{company}</h5>
+                <h5 className="p-2 text-end">{period}</h5>
             </div>
             <p className="p-5 position-description">
                 {description}

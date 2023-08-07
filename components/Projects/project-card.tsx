@@ -30,13 +30,13 @@ export default function Card(
         <div className="w-[100%] m-3 flex lg:flex-row md:flex-row flex-col border-2 border-white-500 rounded">
             <div className='flex-1 flex flex-col p-5'>
                 <div className='lg:w-[80%] md:w-[80%] w-[100%]'>
-                    <h3 className="p-2">{name}</h3>
+                    <h4>{name}</h4>
                     <div className='flex flex-col'>
-                        <h4 className="p-2">{technologies}</h4>
-                        <h4 className="p-2">{when}</h4>
-                        <h4 className="p-2">{link}</h4>
+                        <h5>{technologies}</h5>
+                        <h5>{when}</h5>
+                        <h6>{link}</h6>
                     </div>
-                    <p className="p-5">
+                    <p className="p-2">
                         {description}
                     </p>
                 </div>

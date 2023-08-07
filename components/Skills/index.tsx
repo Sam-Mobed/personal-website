@@ -8,8 +8,18 @@ import {TbBrandGolang} from 'react-icons/tb'
 import { SiJavascript,SiTypescript,SiExpress,SiCoursera,SiCplusplus,SiOcaml,SiR,SiHtml5,SiCss3,SiNextdotjs,SiLatex,SiGnubash,SiPowershell } from 'react-icons/si'
 
 const imgStyle = {
-    height:'18vmax',
-    width:'auto'
+    height:'auto',
+    width:'25vmax'
+}
+
+const img2Style = {
+    height:'auto',
+    width:'20vmax'
+}
+
+const img3Style = {
+    height:'auto',
+    width:'15vmax'
 }
 
 export default function Skills(){
@@ -17,19 +27,24 @@ export default function Skills(){
         <div className="ml-[5vmax] mr-[5vmax] mt-[1vw]">
             <div className='flex flex-col'>
                 <h2 className='text-white pt-5 pb-5'>My Technical Skills</h2>
-                <div className='flex lg:flex-row md:flex-row flex-col pb-5'>
-                    <Image
-                    src={writer}
-                    alt='writer'
-                    style={imgStyle}
-                    />
-                    <p className='text-white'>
-                        an overview of my technical skills
-                    Networked with businesses and community organizations, conducting engaging and informative sales presentations to prospective sponsors, carefully evaluating their specific needs to then offer the most suitable sponsorship packages.
-                    </p>
+                <div className='flex justify-between lg:flex-row md:flex-row flex-col pb-5'>
+                    <div className='flex justify-center items-center p-5'>
+                        <Image
+                        src={writer}
+                        alt='writer'
+                        style={imgStyle}
+                        />
+                    </div>
+                    <div className='lg:w-[60%] md:[w-60%] w-[100%] flex justify-end items-center'>
+                        <p className='text-white p-5 text-justify'>
+                            an overview of my technical skills
+                        Networked with businesses and community organizations, conducting engaging and informative sales presentations to prospective sponsors, carefully evaluating their specific needs to then offer the most suitable sponsorship packages.
+                        </p>
+                    </div>
+                    
                 </div>
                 <div className='flex flex-col text-white'>
-                    <div className='flex lg:flex-row md:flex-row flex-col justify-center items-center'>
+                    <div className='flex lg:flex-row md:flex-row flex-col justify-center items-center pb-10'>
                         <div className='flex-1 flex flex-col justify-center items-center'>
                             <h4 className='p-5'>Languages</h4>
                             <div className='flex flex-row flex-wrap justify-center items-center'>
@@ -79,7 +94,7 @@ export default function Skills(){
                                 </div>
                             </div>
                         </div>
-                        <div className='flex-1 flex justify-center items-center'>
+                        <div className='flex-1 flex justify-center items-center '>
                             <Image
                             src={typer}
                             alt='typer'
@@ -87,12 +102,12 @@ export default function Skills(){
                             />
                         </div>
                     </div>
-                    <div className='flex lg:flex-row md:flex-row flex-col justify-center items-center'>
+                    <div className='flex lg:flex-row md:flex-row flex-col-reverse justify-center items-center pb-10'>
                         <div className='flex-1 flex justify-center items-center'>
                             <Image
                             src={framework}
                             alt='framework'
-                            style={imgStyle}
+                            style={img2Style}
                             />
                         </div>
                         <div className='flex-1 flex flex-col justify-center items-center'>
@@ -155,7 +170,7 @@ export default function Skills(){
                             <Image
                             src={tools}
                             alt='tools'
-                            style={imgStyle}
+                            style={img3Style}
                             />
                         </div>
                     </div>
