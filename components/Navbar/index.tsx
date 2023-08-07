@@ -13,8 +13,10 @@ export default function Navbar(){
             </div>
             
             <a href='/marcus.png'>
-                <p className='p-1 hover:text-blue-600 hover:border-blue-600 border-2 border-black rounded'>Resume</p>
+                <p className='p-1 hover:text-white hover:bg-black  border-2 border-black rounded font-bold'>Resume</p>
             </a>
         </div>
     );
 }
+
+//p-1 hover:text-blue-600 hover:border-blue-600 border-2 border-black rounded font-bold

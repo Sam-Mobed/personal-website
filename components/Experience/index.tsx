@@ -16,7 +16,7 @@ const jobs = {
         'description':'I demonstrated proactive and effective incident management by meticulously analyzing and categorizing incoming tickets, promptly engaging the necessary response teams, and ensuring swift resolutions. Additionally, I oversaw the complete lifecycle of tickets, both ongoing and archived, while conducting thorough evaluations of IT processes. These evaluations enabled the identification of opportunities for enhancement, contributing to the continuous improvement of our operational efficiency.',
     },
     'misa':{
-        'position':'Web Design Executive',
+        'position':'Head of Web Design',
         'company':'McGill Iranian Student Association',
         'period':'April 2023 - Present',
         'description':'In May 2023, I harnessed the power of cutting-edge technologies, including Next.js, TypeScript, Sanity.io, and TailwindCSS, to craft a sophisticated online platform for the McGill Iranian Student Association. My role encompassed both design and development, allowing me to create an official website that seamlessly blends a captivating visual aesthetic with an intuitive user experience. Notably, I integrated a robust Content Management System (CMS) into the architecture, streamlining the process of content updates and management for the website. This dynamic solution ensures that the association\'s online presence remains up-to-date and engaging for its audience.',
@@ -30,7 +30,7 @@ const jobs = {
 }
 
 const gargoyleStyle = {
-    width:'15vmax',
+    width:'18vmax',
     height:'auto'
 }
 
@@ -38,7 +38,6 @@ export default function Experience(){
     return (
         <div className="ml-[5vmax] mr-[5vmax] mt-[1vw]">
             <h2 className='text-white pt-5 pb-5'>My Experience</h2>
-            <p className='text-white pb-3'>A summary of my experience so far, which you can also see on my resume here:</p>
             <div className="flex flex-wrap justify-between text-white">
                 <Card 
                     position={jobs['ssc-HPCS']['position']}
