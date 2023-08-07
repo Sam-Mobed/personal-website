@@ -13,11 +13,11 @@ export default function Contact(){
             <div className='flex flex-col text-white justify-center items-center'>
                 <h2 className='text-white pt-5 pb-5'>Contact Me</h2>
                 <div className="flex flex-col w-[100%]">
-                    <div className="flex flex-row justify-between items-center p-2">
+                    <div className="flex lg:flex-row md:flex-row flex-col justify-between items-center p-2">
                         <p>Phone Number</p>
                         <p className="underline">514 647-1796</p>
                     </div>
-                    <div className="flex flex-row justify-between items-center p-2">
+                    <div className="flex lg:flex-row md:flex-row flex-col justify-between items-center p-2">
                         <p>Email</p>
                         <p className="underline">sammobed1@gmail.com</p>
                     </div>
@@ -29,7 +29,7 @@ export default function Contact(){
                     </div>
                     <div className="flex flex-row justify-between items-center p-2">
                         <p>LinkedIn</p>
-                        <a href='www.linkedin.com/in/sam-mobed-541332212'>
+                        <a href='https://www.linkedin.com/in/sam-mobed-541332212/'>
                             <FaLinkedin className="text-3xl cursor-pointer hover:text-blue-600" />
                         </a>
                     </div>

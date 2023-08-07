@@ -7,7 +7,7 @@ export default function Navbar(){
                 <a href='https://github.com/Sam-Mobed/' className='pr-2'>
                     <FaGithub className="text-3xl cursor-pointer hover:text-purple-600" />
                 </a>
-                <a href='www.linkedin.com/in/sam-mobed-541332212'>
+                <a href='https://www.linkedin.com/in/sam-mobed-541332212/'>
                     <FaLinkedin className="text-3xl cursor-pointer hover:text-blue-600" />
                 </a>
             </div>

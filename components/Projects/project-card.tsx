@@ -34,7 +34,13 @@ export default function Card(
                     <div className='flex flex-col'>
                         <h5>{technologies}</h5>
                         <h5>{when}</h5>
-                        <h6>{link}</h6>
+                        {(link==='No repository yet')?
+                            <h6>No Repository Available</h6>
+                        :
+                            <a href={link}>
+                                <h6 className='underline'>The GitHub Repository</h6>
+                            </a>
+                        }
                     </div>
                     <p className="p-2">
                         {description}
