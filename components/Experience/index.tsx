@@ -7,25 +7,25 @@ const jobs = {
         'position':'High Performance Computing Solutions Intern',
         'company':'Shared Services Canada',
         'period':'January 2023 – Present',
-        'description':'I played a pivotal role in enhancing operational efficiency by creating and deploying Python and Bash scripts that automated critical monitoring and maintenance tasks across a multitude of nodes spanning various clusters. Leveraging an array of cutting-edge technologies including the ELK Stack, Icinga, Telegraf, and Grafana, I meticulously collected, queried, and visualized data, empowering informed decision-making. My commitment to excellence was evident in my rigorous testing and debugging efforts, which prioritized performance optimization, long-term maintainability, and elevated code quality.',
+        'description':'During my tenure in a previous internship, I undertook a pivotal role in automating monitoring and maintenance operations for numerous nodes spanning diverse clusters. This entailed the development and deployment of Python and Bash scripts, significantly streamlining efficiency. Additionally, I played an integral part in enhancing log data management and analysis. By skillfully implementing the ELK Stack, I facilitated the collection, ingestion, and visualization of scheduler-generated logs, resulting in comprehensive insights into system operations and performance. Furthermore, I leveraged the capabilities of Telegraf, Elasticsearch, and Kibana to effectively capture and visualize heat and energy metrics from cluster nodes. This endeavor culminated in the optimization of heat management processes through intuitive and efficient data visualization techniques.',
     },
     'ssc-IC':{
         'position':'Incident Coordination Intern',
         'company':'Shared Services Canada',
         'period':'June 2022 – December 2022',
-        'description':'I demonstrated proactive and effective incident management by meticulously analyzing and categorizing incoming tickets, promptly engaging the necessary response teams, and ensuring swift resolutions. Additionally, I oversaw the complete lifecycle of tickets, both ongoing and archived, while conducting thorough evaluations of IT processes. These evaluations enabled the identification of opportunities for enhancement, contributing to the continuous improvement of our operational efficiency.',
+        'description':'During my inaugural internship, I assumed a pivotal role in the efficient handling of technical incidents. This encompassed the meticulous analysis and classification of incoming tickets, followed by proactive collaboration with the relevant response teams to ensure swift and effective resolutions. I further spearheaded the management of ongoing incidents, meticulously archiving tickets while concurrently conducting comprehensive evaluations of the organization\'s IT processes. Through these meticulous assessments, I adeptly identified areas ripe for enhancement, thus contributing to the continuous improvement and optimization of the operational framework.',
     },
     'misa':{
         'position':'Head of Web Design',
         'company':'McGill Iranian Student Association',
         'period':'April 2023 - Present',
-        'description':'In May 2023, I harnessed the power of cutting-edge technologies, including Next.js, TypeScript, Sanity.io, and TailwindCSS, to craft a sophisticated online platform for the McGill Iranian Student Association. My role encompassed both design and development, allowing me to create an official website that seamlessly blends a captivating visual aesthetic with an intuitive user experience. Notably, I integrated a robust Content Management System (CMS) into the architecture, streamlining the process of content updates and management for the website. This dynamic solution ensures that the association\'s online presence remains up-to-date and engaging for its audience.',
+        'description':'In my capacity at a university club, I assumed a pivotal role in orchestrating the design and development of the organization\'s official website. This endeavor was marked by meticulous attention to detail, ensuring an impeccably seamless user experience and captivating visual appeal. Notably, I spearheaded the integration of a robust Content Management System (CMS), a strategic move that empowered effortless content updates and management. This innovative solution was further fortified by the incorporation of internationalization, making the site accessible in multiple languages. In this project, I adeptly employed an array of cutting-edge tools and technologies, including Next.js, TypeScript, TailwindCSS, Framer Motion, and Sanity.io, achieving a harmonious blend of functionality and aesthetics that significantly elevated the club\'s online presence.',
     },
     'mchacks':{
         'position':'Sponsorship Coordinator',
         'company':'HackMcGill’s McHacks',
         'period':'May 2022 – February 2023',
-        'description':'Networked with businesses and community organizations, conducting engaging and informative sales presentations to prospective sponsors, carefully evaluating their specific needs to then offer the most suitable sponsorship packages.',
+        'description':'In my inaugural role within a prominent club at McGill University, I excelled in forging valuable connections with businesses and community organizations. I masterfully orchestrated captivating and informative sales presentations, skillfully tailoring each interaction to effectively showcase the club\'s offerings. My approach involved a meticulous assessment of prospective sponsors\' individual requirements, enabling me to tailor bespoke sponsorship packages that aligned seamlessly with their objectives. This proactive engagement not only established fruitful partnerships but also contributed significantly to the club\'s overall growth and success.',
     }
 }
 

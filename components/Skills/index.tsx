@@ -37,8 +37,8 @@ export default function Skills(){
                     </div>
                     <div className='lg:w-[60%] md:[w-60%] w-[100%] flex justify-end items-center'>
                         <p className='text-white p-5 text-justify'>
-                            an overview of my technical skills
-                        Networked with businesses and community organizations, conducting engaging and informative sales presentations to prospective sponsors, carefully evaluating their specific needs to then offer the most suitable sponsorship packages.
+                            an overview of my technical skills, including the programming languages that I know, the frameworks and the developer tools that i am familiar with.
+                            I possess a diverse range of technical skills that encompass proficiency in various programming languages, such as Python, Java, and JavaScript. My expertise extends to leveraging frameworks like React and Express, enabling me to develop dynamic and responsive web applications. Furthermore, I am well-versed in utilizing developer tools such as Git for version control and Docker for containerization, ensuring efficient and collaborative software development processes. This comprehensive skill set empowers me to navigate complex technical challenges and contribute effectively to innovative projects.
                         </p>
                     </div>
                     

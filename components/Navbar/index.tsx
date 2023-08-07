@@ -12,7 +12,7 @@ export default function Navbar(){
                 </a>
             </div>
             
-            <a href='/marcus.png'>
+            <a href='/SamMobedResume.pdf'>
                 <p className='p-1 hover:text-white hover:bg-black  border-2 border-black rounded font-bold'>Resume</p>
             </a>
         </div>
